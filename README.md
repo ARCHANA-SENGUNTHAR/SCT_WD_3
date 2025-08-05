@@ -2,8 +2,7 @@
 
 Welcome to **Javenture**, a full-featured quiz management system built using the **MERN stack**. This project was developed as part of my internship and showcases key skills in frontend, backend, and admin-based CRUD functionalities.
 
-🎥 **[Watch Demo Video](#)**  
-https://youtu.be/vWWZi5PTS10
+🎥 **[Watch Demo Video](https://youtu.be/vWWZi5PTS10)**  
 
 ---
 
