@@ -1,7 +1,5 @@
-/* AdminDashboard.css - Java Inspired Theme */
-
 .admin-dashboard {
-  background-color: #0b0c10; /* dark bg */
+  background-color: #0b0c10; 
   color: #f8f8f2;
   min-height: 100vh;
   padding: 2rem;
@@ -10,7 +8,7 @@
 
 .admin-dashboard h2 {
   font-size: 2rem;
-  color: #f39c12; /* Java orange */
+  color: #f39c12; 
   margin-bottom: 1rem;
 }
 

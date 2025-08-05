@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 
-const app = express(); // ✅ DECLARE FIRST
+const app = express(); 
 
 // Middleware
 app.use(cors());

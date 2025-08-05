@@ -3,7 +3,7 @@ const router = express.Router();
 const Question = require('../models/Question');
 const { protect } = require('../middleware/authMiddleware');
 
-// ✅ Add a new question
+//To add a new question
 router.post('/add', protect, async (req, res) => {
   const { level, topic, question, options, answer, type } = req.body;
   try {
@@ -18,7 +18,7 @@ router.post('/add', protect, async (req, res) => {
   }
 });
 
-// ✅ Get all questions
+// To get all questions
 router.get('/all', protect, async (req, res) => {
   try {
     const questions = await Question.find().sort({ createdAt: -1 });
@@ -28,7 +28,7 @@ router.get('/all', protect, async (req, res) => {
   }
 });
 
-// ✅ Delete question by ID
+// To delete question by ID
 router.delete('/:id', protect, async (req, res) => {
   try {
     await Question.findByIdAndDelete(req.params.id);

@@ -25,7 +25,7 @@ export const UserProvider = ({ children }) => {
     username: userData.username || '',
     email: userData.email || '',
     token: userData.token || '',
-    isAdmin: userData.isAdmin || false,  // ✅ Add this line
+    isAdmin: userData.isAdmin || false, 
   };
   localStorage.setItem('user', JSON.stringify(safeUser));
   localStorage.setItem('token', safeUser.token);

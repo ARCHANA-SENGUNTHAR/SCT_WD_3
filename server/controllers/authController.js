@@ -29,7 +29,7 @@ const loginUser = async (req, res) => {
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) return res.status(400).json({ message: 'Invalid credentials' });
 
-    // ✅ Admin login check if adminSecret is provided
+    // Admin login check if adminSecret is provided
     if (adminSecret !== undefined) {
 
       if (!user.isAdmin) {

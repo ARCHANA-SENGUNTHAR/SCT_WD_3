@@ -1,4 +1,4 @@
-/* Make entire app fill the screen and flex vertically */
+
 html, body, #root {
   height: 100%;
   margin: 0;

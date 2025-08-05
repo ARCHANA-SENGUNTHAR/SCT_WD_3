@@ -1,7 +1,7 @@
 import { useContext, useEffect } from 'react';
 import { UserContext } from '../context/UserContext';
 import { useNavigate } from 'react-router-dom';
-import API from '../api/axios'; // ✅ your custom axios instance
+import API from '../api/axios';
 
 const AdminProfile = () => {
   const { user } = useContext(UserContext);

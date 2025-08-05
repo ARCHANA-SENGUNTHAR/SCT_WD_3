@@ -3,6 +3,7 @@ import 'react-calendar-heatmap/dist/styles.css';
 import { subDays, format } from 'date-fns';
 
 const ActivityHeatmap = ({ activities }) => {
+
   // Transform activities into heatmap format
   const heatmapData = activities.reduce((acc, act) => {
     const date = format(new Date(act.date), 'yyyy-MM-dd');
@@ -17,7 +18,7 @@ const ActivityHeatmap = ({ activities }) => {
 
   return (
     <div>
-      <h3>🔥 Activity Heatmap</h3>
+      <h3>Activity Heatmap</h3>
       <CalendarHeatmap
         startDate={subDays(new Date(), 150)}
         endDate={new Date()}
