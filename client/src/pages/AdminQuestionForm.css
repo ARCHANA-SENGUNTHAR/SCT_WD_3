@@ -1,0 +1,78 @@
+/* AdminQuestionForm.css */
+
+.admin-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #1f1f2e;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-form-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00d0ff;
+}
+
+.admin-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.admin-form-container label {
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.admin-form-container input[type="text"],
+.admin-form-container input[type="number"],
+.admin-form-container input[type="radio"],
+.admin-form-container input[type="checkbox"],
+.admin-form-container textarea,
+.admin-form-container select {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e2e3e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.admin-form-container input[type="radio"],
+.admin-form-container input[type="checkbox"] {
+  width: auto;
+  margin-left: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.admin-form-container textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.option-group {
+  background-color: #2a2a3c;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.admin-form-container button[type="submit"] {
+  background-color: #00bfa6;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.admin-form-container button[type="submit"]:hover {
+  background-color: #009b89;
+}

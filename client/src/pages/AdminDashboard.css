@@ -1,0 +1,86 @@
+/* AdminDashboard.css - Java Inspired Theme */
+
+.admin-dashboard {
+  background-color: #0b0c10; /* dark bg */
+  color: #f8f8f2;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-dashboard h2 {
+  font-size: 2rem;
+  color: #f39c12; /* Java orange */
+  margin-bottom: 1rem;
+}
+
+.admin-dashboard input[type="text"] {
+  padding: 10px 16px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  border: 1px solid #f39c12;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #1f1f1f;
+  color: #f8f8f2;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.admin-dashboard input[type="text"]:focus {
+  border-color: #ff9800;
+}
+
+.admin-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 152, 0, 0.2);
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+}
+
+.admin-dashboard thead {
+  background-color: #262626;
+}
+
+.admin-dashboard th {
+  color: #ffa500;
+  font-weight: 600;
+}
+
+.admin-dashboard tbody tr:hover {
+  background-color: #2c2c2c;
+}
+
+.admin-dashboard button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e74c3c;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease-in-out;
+}
+
+.admin-dashboard button:hover {
+  background-color: #c0392b;
+}
+
+.admin-dashboard p {
+  color: #bbbbbb;
+  font-size: 1rem;
+  margin-top: 20px;
+}

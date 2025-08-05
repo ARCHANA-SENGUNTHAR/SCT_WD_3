@@ -1,0 +1,81 @@
+/* Remove all default spacing globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e2f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.highlight {
+  color: #3f51b5;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 8px 0;
+  color: #bbbbbb;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.feature-card {
+  background-color: #2e2e3e;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  font-size: 1rem;
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background-color: #3b3b55;
+}
+
+.get-started-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #3f51b5;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #5c6bc0;
+}

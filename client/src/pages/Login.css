@@ -1,0 +1,77 @@
+/* Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #121212;
+  padding: 20px;
+}
+
+/* Card */
+.login-card {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(63, 81, 181, 0.4);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading Highlight */
+.java-color {
+  color: #3f51b5;
+}
+
+/* Form Fields */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.login-form input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #2c2c2c;
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-form input:focus {
+  box-shadow: 0 0 5px #3f51b5;
+}
+
+/* Button */
+.login-form button {
+  padding: 12px;
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #303f9f;
+}
+
+/* Register Link */
+.register-link {
+  color: #fdd835;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+/* ViewProfile.css */
+
+.profile-wrapper {
+  background-color: #121212;
+  color: #f1f1f1;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.login-message {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.profile-section,
+.activity-section,
+.performance-section {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.1);
+}
+
+.profile-section {
+  border-left: 6px solid #f39c12;
+}
+
+.profile-section h2 {
+  margin-bottom: 8px;
+  font-size: 2rem;
+  color: #f39c12;
+}
+
+.profile-section p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.activity-section h3,
+.performance-section h3 {
+  font-size: 1.5rem;
+  color: #4db8ff;
+  margin-bottom: 16px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .profile-wrapper {
+    padding: 20px 10px;
+  }
+
+  .profile-section h2,
+  .activity-section h3,
+  .performance-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .profile-section p {
+    font-size: 0.95rem;
+  }
+}

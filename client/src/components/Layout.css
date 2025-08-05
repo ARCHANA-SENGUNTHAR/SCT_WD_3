@@ -1,0 +1,14 @@
+/* Layout.css */
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full height of viewport */
+}
+
+.main-content {
+  flex: 1; /* pushes footer to bottom */
+  padding-top: 70px; /* enough space below fixed navbar */
+  padding-left: 10px;
+  padding-right: 10px;
+}
